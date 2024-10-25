@@ -5,7 +5,7 @@ import connectDB from './config/db.js';
 import productRoutes from './routes/product.route.js';
 
 const host = "http://localhost";
-const port = process.env.PORT || 5000;
+const port = parseInt(process.env.PORT) || 5000;
 const app =express();
 
 const __dirName = path.resolve();
