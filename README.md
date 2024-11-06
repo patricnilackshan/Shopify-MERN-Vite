@@ -48,6 +48,7 @@ Welcome to the **Shopify-MERN-Vite** project! This is a dynamic e-commerce appli
    ```text
    MONGODB_URI=your_mongodb_connection_string
    PORT=5000
+   NODE_ENV='production'
    ```
 
 ---
